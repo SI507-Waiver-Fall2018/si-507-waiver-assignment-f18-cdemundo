@@ -1,3 +1,6 @@
+#Name: Chris Demundo
+#Umich ID: cdemundo
+
 # Imports -- you may add others but do not need to
 import plotly.plotly as py
 import plotly.graph_objs as go
@@ -42,4 +45,4 @@ layout = go.Layout(
 
 fig = go.Figure(data=data, layout=layout)
 
-py.image.save_as(fig, filename='Tweet Analysis.png')
+py.image.save_as(fig, filename='part4_viz_image.png')

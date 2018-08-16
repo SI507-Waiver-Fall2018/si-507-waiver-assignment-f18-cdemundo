@@ -1,3 +1,6 @@
+#Name: Chris Demundo
+#Umich ID: cdemundo
+
 # these should be the only imports you need
 
 import requests
@@ -16,7 +19,7 @@ def main():
 	if page:
 		results = GetMostReadDiv(page)
 	else:
-		print("Couldn't get HTML")
+		print("Couldn't get HTML from page")
 
 	#extract and store the titles from that div
 	GetArticles(results)

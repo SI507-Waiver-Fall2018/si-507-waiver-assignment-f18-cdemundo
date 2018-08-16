@@ -1,3 +1,6 @@
+#Name: Chris Demundo
+#Umich ID: cdemundo
+
 # these should be the only imports you need
 import sys
 import sqlite3
